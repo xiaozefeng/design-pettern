@@ -6,9 +6,7 @@ package org.dark.principle.dependenceinversion;
  * @date 2018/8/18 下午2:45
  */
 public interface Course {
-    int getId();
 
-    String getName();
+    void studyCourse();
 
-    double getPrice();
 }
